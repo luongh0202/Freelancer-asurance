@@ -1,0 +1,48 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Freelancer\/Demo1\/Footer\/root\/css\/style\.scss}line{font-family:\000031}}
+footer {
+  background-color: #111; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Freelancer\/Demo1\/Footer\/root\/css\/style\.scss}line{font-family:\000033}}
+  footer .footer_custom {
+    padding-top: 57px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Freelancer\/Demo1\/Footer\/root\/css\/style\.scss}line{font-family:\000036}}
+    footer .footer_custom div h3 {
+      color: #FFF;
+      font-size: 20px;
+      font-weight: 400; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Freelancer\/Demo1\/Footer\/root\/css\/style\.scss}line{font-family:\0000311}}
+    footer .footer_custom div p {
+      color: #989898; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Freelancer\/Demo1\/Footer\/root\/css\/style\.scss}line{font-family:\0000314}}
+    footer .footer_custom div a {
+      color: #989898; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Freelancer\/Demo1\/Footer\/root\/css\/style\.scss}line{font-family:\0000317}}
+    footer .footer_custom div.about_footer {
+      padding: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Freelancer\/Demo1\/Footer\/root\/css\/style\.scss}line{font-family:\0000319}}
+      footer .footer_custom div.about_footer p {
+        margin-bottom: 45px;
+        font-size: 13px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Freelancer\/Demo1\/Footer\/root\/css\/style\.scss}line{font-family:\0000323}}
+      footer .footer_custom div.about_footer a {
+        display: block;
+        border-top: 1px solid #999;
+        padding-top: 20px;
+        padding-bottom: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Freelancer\/Demo1\/Footer\/root\/css\/style\.scss}line{font-family:\0000330}}
+    footer .footer_custom div.infomation_footer {
+      padding-left: 28px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Freelancer\/Demo1\/Footer\/root\/css\/style\.scss}line{font-family:\0000332}}
+      footer .footer_custom div.infomation_footer ul {
+        padding-left: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Freelancer\/Demo1\/Footer\/root\/css\/style\.scss}line{font-family:\0000334}}
+        footer .footer_custom div.infomation_footer ul li {
+          list-style: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Freelancer\/Demo1\/Footer\/root\/css\/style\.scss}line{font-family:\0000339}}
+    footer .footer_custom div.quick_link_footer {
+      padding-left: 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Freelancer\/Demo1\/Footer\/root\/css\/style\.scss}line{font-family:\0000341}}
+      footer .footer_custom div.quick_link_footer ul {
+        padding-left: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Freelancer\/Demo1\/Footer\/root\/css\/style\.scss}line{font-family:\0000343}}
+        footer .footer_custom div.quick_link_footer ul li {
+          list-style: none; }
