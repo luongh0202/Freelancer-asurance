@@ -1,1 +1,114 @@
 footer{background-color:#111}
+@font-face {
+    font-family: 'HelveticaNeueLTStd';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/HelveticaNeueLTStd Lt.otf');
+}
+a:hover{
+	text-decoration: none;
+}
+.top-header{
+	background-color: #000;
+	padding-top: 22.5px;
+	padding-bottom: 22.5px; 
+}
+.top-header a{
+	font-size: 13px;
+	font-family: "HelveticaNeueLTStd";
+	color: rgb( 255, 255, 255 );
+	letter-spacing: 1px;
+}
+.top-header a .glyphicon{
+	color: #f16192;
+	margin-right: 10px;	
+}
+.top-header a.find, .top-header a.email{
+	margin-right: 20px;
+}
+.center-header{
+	padding: 25px 0;
+}
+.center-header .text-left a{
+	margin-left: 10px;
+}
+.center-header .search input{
+	font-size: 13px;
+    font-family: "HelveticaNeue";
+    color: rgb( 174, 174, 174 );
+    line-height: 2;
+    font-style: italic;
+    border: none;
+}
+.center-header .text-left .search .glyphicon-search{
+	color: rgb( 174, 174, 174 );
+}
+.navbar_custom{
+	border: none;
+    background-color: #f6f6f6;
+}
+.navbar_custom .navbar-nav a{
+	font-size: 12px; font-family: "HelveticaNeueLTStd"; color: rgb( 241, 97, 146 ); text-transform: uppercase;
+	padding: 30px 20px;
+	letter-spacing: 1px;
+}
+.navbar_custom .navbar-nav .active{
+	background-color: #f6f6f6;
+}
+.navbar_custom .navbar-nav .active a{
+	color: #f16192;
+}
+.navbar_custom .navbar-nav .glyphicon-chevron-down{
+	font-size: 10px;
+	margin-left: 10px;
+}
+@media (max-width: 991px) {
+	.center-header .container{
+		position: relative;
+		
+	}
+	.center-header .container>div.text-right{
+		position: absolute;
+		top: 0;
+		right: 0;
+	}
+	.center-header .container>div{
+		margin-bottom: 40px;
+	}
+	.navbar_custom .navbar-nav a{
+		font-size: 10px;
+		padding: 20px 10px;
+	}
+	.navbar_custom .navbar-nav .glyphicon-chevron-down{
+		font-size: 8px;
+		margin-left: 2px;
+	}
+}
+@media (max-width: 767px) {
+	.top-header .right{
+		text-align: left;
+		margin-top: 10px;
+	}
+}
+@media (max-width: 424px) {
+	.top-header .left a{
+		display: block;
+	}
+	.top-header .left a.email{
+		margin-bottom: 10px;
+	}
+	.center-header .container>div.left{
+		margin-bottom: 100px;
+    	text-align: center;
+	}
+	.center-header .container>div.right{
+		top: 60px;
+		width: 100%; 
+	}
+	.center-header .right .search{
+		text-align: center;
+	}
+	.center-header .right .search input{
+		width: 60%;
+	}
+}
